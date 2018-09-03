@@ -1,0 +1,94 @@
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*-------------------头部---------------*/
+header.header {
+  border-top: 1px solid #fff;
+  width: 100%;
+}
+
+header.header span {
+  display: inline-block;
+  height: 1rem;
+}
+
+header.header .fl {
+  float: left;
+  line-height: 1rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.38rem;
+  padding-left: 1.01rem;
+  background: url("../images/logo.png") 0.3rem center no-repeat;
+  background-size: 0.48rem 0.48rem;
+}
+
+header.header .fr {
+  float: right;
+  width: 0.43rem;
+  margin-right: 0.3rem;
+  display: block;
+  background: url("../images/down.png") no-repeat right center;
+  background-size: 0.42rem 0.32rem;
+}
+
+header.header .fr.down {
+  width: 0.32rem;
+  background: url("../images/x.png") no-repeat right center;
+  background-size: 0.32rem 0.32rem;
+}
+
+header.header .list {
+  top: 1rem;
+  border-top: 0.2rem solid #f7f7f8;
+  width: 100%;
+  z-index: 9999;
+  display: none;
+  position: absolute;
+}
+
+header.header .list li {
+  background-color: #fff;
+  text-align: center;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.32rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #e9ebee;
+  width: 100%;
+}
+
+header.header .list li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+
+section.mask {
+  position: absolute;
+  top: 1rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+  z-index: 2;
+}
+
+/*------------------banner----------------*/
+.banner {
+  display: block;
+  width: 100%;
+}
+
+
+/*------------------文字-------------*/
+article {
+  padding:0.5rem 0.3rem;
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+  color: #62686f;
+  text-indent: 2em;
+}

@@ -1,0 +1,177 @@
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header.header {
+  border-top: 1px solid #fff;
+  width: 100%;
+}
+
+header.header span {
+  display: inline-block;
+  height: 1rem;
+}
+
+header.header .fl {
+  float: left;
+  line-height: 1rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.38rem;
+  padding-left: 1.01rem;
+  background: url("../images/logo.png") 0.3rem center no-repeat;
+  background-size: 0.48rem 0.48rem;
+}
+
+header.header .fr {
+  float: right;
+  width: 0.43rem;
+  margin-right: 0.3rem;
+  display: block;
+  background: url("../images/down.png") no-repeat right center;
+  background-size: 0.42rem 0.32rem;
+}
+
+header.header .fr.down {
+  width: 0.32rem;
+  background: url("../images/x.png") no-repeat right center;
+  background-size: 0.32rem 0.32rem;
+}
+
+header.header .list {
+  top: 1rem;
+  border-top: 0.2rem solid #f7f7f8;
+  width: 100%;
+  z-index: 9999;
+  display: none;
+  position: absolute;
+}
+
+header.header .list li {
+  background-color: #fff;
+  text-align: center;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.32rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #e9ebee;
+  width: 100%;
+}
+
+header.header .list li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+
+section.mask {
+  position: absolute;
+  top: 1rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+  z-index: 2;
+}
+
+/*---------------------------banner-------------------*/
+banner img {
+  width: 100%;
+  display: block;
+}
+
+.tab ul.top li {
+  line-height: 0.57rem;
+  height: 1.7rem;
+  float: left;
+  width: 25%;
+  font-size: 0.22rem;
+  color: #62686f;
+  /*color: #406ff4;*/
+  padding-top: 1.13rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.tab ul.top li:nth-child(1) {
+  background: url("../images/field/icon1.png") no-repeat center 0.33rem;
+  background-size: 0.6rem 0.6rem;
+  background-color: #f7f7f8;
+}
+
+.tab ul.top li:nth-child(1).active {
+  background: url("../images/field/icon1-1.png") no-repeat center 0.33rem;
+  background-size: 0.6rem 0.6rem;
+  color: #406ff4;
+}
+
+.tab ul.top li:nth-child(2) {
+  background: url("../images/field/icon2.png") no-repeat center 0.33rem;
+  background-size: 0.6rem 0.6rem;
+  background-color: #f7f7f8;
+}
+
+.tab ul.top li:nth-child(2).active {
+  background: url("../images/field/icon2-1.png") no-repeat center 0.33rem;
+  background-size: 0.6rem 0.6rem;
+  color: #406ff4;
+}
+
+.tab ul.top li:nth-child(3) {
+  background: url("../images/field/icon3.png") no-repeat center 0.33rem;
+  background-size: 0.6rem 0.6rem;
+  background-color: #f7f7f8;
+}
+
+.tab ul.top li:nth-child(3).active {
+  background: url("../images/field/icon3-1.png") no-repeat center 0.33rem;
+  background-size: 0.6rem 0.6rem;
+  color: #406ff4;
+}
+
+.tab ul.top li:nth-child(4) {
+  background: url("../images/field/icon4.png") no-repeat center 0.33rem;
+  background-size: 0.52rem 0.6rem;
+  background-color: #f7f7f8;
+}
+
+.tab ul.top li:nth-child(4).active {
+  background: url("../images/field/icon4-1.png") no-repeat center 0.33rem;
+  background-size: 0.52rem 0.6rem;
+  color: #406ff4;
+}
+
+.tab div {
+  width: 100%;
+  padding: 0.6rem 0 0.62rem;
+  box-sizing: border-box;
+  display: none;
+}
+
+.tab div.active {
+  display: block;
+}
+
+.tab div ul.bottom li {
+  font-size: 0.28rem;
+  color: #62686f;
+  width: 50%;
+  float: left;
+  padding-left:0.66rem;
+  box-sizing: border-box;
+  line-height: 0.54rem;
+  position: relative;
+}
+
+.tab div ul.bottom li span {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #62686f;
+  position: absolute;
+  top: 0.245rem;
+  left: 0.55rem;
+}

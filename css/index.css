@@ -1,0 +1,372 @@
+/*---------------------头部--------------*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header.header {
+  border-top: 1px solid #fff;
+  width: 100%;
+}
+
+header.header span {
+  display: inline-block;
+  height: 1rem;
+}
+
+header.header .fl {
+  float: left;
+  line-height: 1rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.38rem;
+  padding-left: 1.01rem;
+  background: url("../images/logo.png") 0.3rem center no-repeat;
+  background-size: 0.48rem 0.48rem;
+}
+
+header.header .fr {
+  float: right;
+  width: 0.43rem;
+  margin-right: 0.3rem;
+  display: block;
+  background: url("../images/down.png") no-repeat right center;
+  background-size: 0.42rem 0.32rem;
+}
+
+header.header .fr.down {
+  width: 0.32rem;
+  background: url("../images/x.png") no-repeat right center;
+  background-size: 0.32rem 0.32rem;
+}
+
+header.header .list {
+  top: 1rem;
+  border-top: 0.2rem solid #f7f7f8;
+  width: 100%;
+  z-index: 9999;
+  display: none;
+  position: absolute;
+}
+
+header.header .list li {
+  background-color: #fff;
+  text-align: center;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.32rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #e9ebee;
+  width: 100%;
+}
+
+header.header .list li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+
+section.mask {
+  position: absolute;
+  top: 1rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+  z-index: 2;
+}
+
+/*-------------------banner---------------*/
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination.swiper-pagination-bullets.page .swiper-pagination-bullet {
+  vertical-align: center;
+  margin: 0 0.1rem;
+  background: url('../images/circle.png') no-repeat center center;
+  background-size:0.19rem 0.19rem;
+}
+
+.swiper-pagination.swiper-pagination-bullets.page .swiper-pagination-bullet-active {
+  /*background-color: #fff !important;*/
+  background: url('../images/circle-1.png') no-repeat center center;
+  background-size:0.19rem 0.19rem;
+}
+
+.swiper-pagination.swiper-pagination-bullets {
+  height: 0.8rem;
+  bottom: 0.18rem;
+}
+
+/*---------------------产品服务-------------------*/
+.proservice {
+  text-align: center;
+  background-color: #f7f7f8;
+  padding: 0 0.3rem 0.4rem;
+}
+
+.proservice h2 {
+  line-height: 1.2rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.44rem;
+  font-weight: normal;
+}
+
+.proservice ul li {
+  /*width: 3.35rem;*/
+  width: 48%;
+  height: 3.15rem;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 0.2rem;
+}
+
+.proservice ul li:nth-child(odd) {
+  float: left;
+}
+
+.proservice ul li:nth-child(even) {
+  float: right;
+}
+
+.proservice ul li h3 {
+  font-size: 0.28rem;
+  line-height: 0.7rem;
+}
+
+.proservice ul li p {
+  font-size: 0.2rem;
+  line-height: 0.3rem;
+  color: #62686f;
+}
+
+.proservice ul li:nth-child(1) {
+  background: url("../images/icon1.png") no-repeat center 0.3rem;
+  background-color: #fff;
+  background-size: 0.7rem 0.7rem;
+}
+
+.proservice ul li:nth-child(2) {
+  background: url("../images/icon2.png") no-repeat center 0.3rem;
+  background-color: #fff;
+  background-size: 0.7rem 0.61rem;
+}
+
+.proservice ul li:nth-child(3) {
+  background: url("../images/icon3.png") no-repeat center 0.3rem;
+  background-color: #fff;
+  background-size: 0.7rem 0.73rem;
+}
+
+.proservice ul li:nth-child(4) {
+  background: url("../images/icon4.png") no-repeat center 0.3rem;
+  background-color: #fff;
+  background-size: 0.7rem 0.7rem;
+}
+
+.proservice ul li:nth-child(5) {
+  background: url("../images/icon5.png") no-repeat center 0.3rem;
+  background-color: #fff;
+  background-size: 0.74rem 0.74rem;
+}
+
+.proservice ul li:nth-child(6) {
+  background: url("../images/icon6.png") no-repeat center 0.3rem;
+  background-color: #fff;
+  background-size: 0.7rem 0.73rem;
+}
+
+/*------------------媒体报道--------------------*/
+.media {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.media h2 {
+  line-height: 1.6rem;
+  font-size: 0.44rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.media ul {
+  padding: 0 0.3rem;
+}
+
+.media ul li {
+  height: 1.1rem;
+  margin-bottom: 0.5rem;
+  width: 6.9rem;
+}
+
+.media ul li img {
+  /*width: 1.8rem;*/
+  width:26%;
+  height: 1.1rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+
+.media ul li .bomdiv {
+  width:71%;
+  height: 100%;
+  float:right;
+}
+
+.media ul li h3 {
+  width: 3.9rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.3rem;
+  font-weight: normal;
+  line-height: 0.39rem;
+  color: #001026;
+  /*text-overflow: ellipsis;*/
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.media ul li p {
+  font-size: 0.22rem;
+  line-height: 0.26rem;
+  color: #aaacb0;
+  margin-top: 0.2rem;
+  height: 0.5rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.media .more {
+  width: 2.6rem;
+  line-height: 0.8rem;
+  text-align: center;
+  border-radius: 0.08rem;
+  border: solid 1px #c0c3cc;
+  background-color: #fff;
+  color: #62686f;
+  margin: 0 auto;
+}
+
+/*------------------合作伙伴--------------------*/
+.cooperative {
+  background-color: #f7f7f8;
+}
+
+.cooperative h2 {
+  text-align: center;
+  font-size: 0.44rem;
+  font-weight: normal;
+  color: #001026;
+}
+
+.cooperative ul {
+  padding: 0 0.4rem 0.4rem 0.4rem;
+}
+
+.cooperative ul li {
+  /*width: 2rem;*/
+  width: 30%;
+  height: 1.04rem;
+  /*margin: 0 0.35rem 0.2rem 0;*/
+  margin:0 5% 0.2rem 0;
+  float: left;
+}
+
+.cooperative ul li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.cooperative ul li img {
+  width: 100%;
+}
+/*-------------------底部-----------------*/
+footer {
+  padding-top: 0.83rem;
+  position: relative;
+}
+
+footer img {
+  width: 4rem;
+  height: 4.18rem;
+  float:left;
+}
+
+footer .fl {
+  line-height: 0.58rem;
+  display:inline-block;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.38rem;
+  padding-left: 1.01rem;
+  background: url("../images/logo.png") 0.3rem center no-repeat;
+  background-size: 0.48rem 0.48rem;
+}
+
+footer .des {
+  font-size: 0.22rem;
+  line-height:0.39rem;
+  color: #50565d;
+  position: absolute;
+  top:1.8rem;
+  left:4.3rem;
+}
+
+footer .down {
+  display: inline-block;
+  width: 2.54rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  border-radius: 0.08rem;
+  border: solid 1px #d6d6e4;
+  font-size: 0.24rem;
+  text-indent: 0.8rem;
+  color: #62686f;
+  position: absolute;
+  left:4.3rem;
+}
+
+footer .down.android {
+  background: url("../images/andriod.png") no-repeat 0.3rem center;
+  background-size: 0.35rem 0.4rem;
+  top:2.3rem;
+}
+
+footer .down.iphone {
+  background: url("../images/apple.png") no-repeat 0.3rem center;
+  background-size: 0.35rem 0.41rem;
+  top:3.4rem;
+}
+
+.bottom {
+  line-height: 0.82rem;
+  font-size: 0.18rem;
+  color: #62686f;
+  text-align: center;
+}
+
+
+
+
+
+
+
+

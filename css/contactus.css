@@ -1,0 +1,190 @@
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header.header {
+  border-top: 1px solid #fff;
+  width: 100%;
+}
+
+header.header span {
+  display: inline-block;
+  height: 1rem;
+}
+
+header.header .fl {
+  float: left;
+  line-height: 1rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.38rem;
+  padding-left: 1.01rem;
+  background: url("../images/logo.png") 0.3rem center no-repeat;
+  background-size: 0.48rem 0.48rem;
+}
+
+header.header .fr {
+  float: right;
+  width: 0.43rem;
+  margin-right: 0.3rem;
+  display: block;
+  background: url("../images/down.png") no-repeat right center;
+  background-size: 0.42rem 0.32rem;
+}
+
+header.header .fr.down {
+  width: 0.32rem;
+  background: url("../images/x.png") no-repeat right center;
+  background-size: 0.32rem 0.32rem;
+}
+
+header.header .list {
+  top: 1rem;
+  border-top: 0.2rem solid #f7f7f8;
+  width: 100%;
+  z-index: 9999;
+  display: none;
+  position: absolute;
+}
+
+header.header .list li {
+  background-color: #fff;
+  text-align: center;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.32rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #e9ebee;
+  width: 100%;
+}
+
+header.header .list li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+
+section.mask {
+  position: absolute;
+  top: 1rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+  z-index: 2;
+}
+
+/*-----------------banner-------------*/
+img.banner {
+  display: block;
+  width: 100%;
+}
+
+/*----------------联系方式--------------*/
+section.contact {
+  padding: 0.58rem 0.3rem 0.5rem;
+  border-bottom: 0.16rem solid #f7f7f8;
+}
+
+section.contact h2 {
+  font-size: 0.34rem;
+  line-height: 0.39rem;
+  color: #001026;
+  padding: 0 0 0.25rem;
+}
+
+section.contact p {
+  font-size: 0.28rem;
+  line-height: 0.44rem;
+  color: #62686f;
+}
+
+section.contact img {
+  display: block;
+  margin: 0.5rem auto 0.18rem;
+  width: 2.44rem;
+  height: 2.44rem;
+}
+
+section.contact p.imgdes {
+  font-size: 0.24rem;
+  color: #62686f;
+  text-align: center;
+}
+
+/*------------------留言给我们----------*/
+.onlinemsg {
+  padding: 0 0.3rem;
+}
+
+.onlinemsg h2 {
+  font-size: 0.4rem;
+  line-height: 1.27rem;
+  font-weight: normal;
+  color: #62686f;
+  text-align: center;
+}
+
+.onlinemsg #sub .outer {
+  width: 6.9rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  background-color: #f7f7f8;
+  border-radius: 0.04rem;
+  color: #62686f;
+  padding-left:0.2rem;
+  box-sizing: border-box;
+  margin-bottom:0.3rem;
+  position: relative;
+}
+
+.onlinemsg #sub .outer.text {
+  width: 6.9rem;
+  height: 1.7rem;
+  position: relative;
+}
+
+.onlinemsg #sub .outer input {
+  height: 100%;
+  width: 70%;
+  font-size: 0.32rem;
+  vertical-align: top;
+}
+
+.onlinemsg #sub textarea {
+  height: 1.4rem;
+  width: 80%;
+  box-sizing: border-box;
+  position: absolute;
+  top:0.27rem;
+  left:1rem;
+  font-size: 0.32rem;
+}
+
+.onlinemsg #sub .outer.text label{
+  position: absolute;
+  top:0;
+}
+
+.onlinemsg input[type="submit"]{
+  width: 6.9rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  background-color: #406ff4;
+  border-radius: 0.04rem;
+  color: #fff;
+  font-size: 0.34rem;
+}
+
+.onlinemsg p.notice {
+  line-height: 0.3rem;
+  color:#ccc;
+  position: absolute;
+  bottom: -0.3rem;
+}
+
+
+
+
